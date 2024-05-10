@@ -1,1 +1,5 @@
-# FMCW_depth_imaging
+# FMCW Depth Imaging
+
+The backward propagation method is applied to FMCW GPR data in two different ways. The method from Assignment 4 highlights the effect of the bandwidth, while the method from Assignment 5 highlights the effect of the aperture size. I show that either reconstruction process results in an accurate depiction of the rebar beneath the ground where the data was measured. Only the phase term in Green’s function is considered. The reconstruction obtained from the backward propagation method is compared to the reconstruction obtained from a simple Fourier transform.
+
+In the method from Assignment 4, I apply the technique across all aperture data points while gradually increasing the bandwidth of the transmitted chirp. In Assignment 5, I apply the technique using a wide band of frequencies for each individual aperture data point and sequentially combine the reconstructions. In either method, as the sub-image range profiles are gradually added together, the reconstruction of the source region is improved. The technique is applied for a source region consisting of three point sources. The magnitude content of Green’s function is ignored. I find that the image resolution, aperture size, and spectral coverage are closely related.
